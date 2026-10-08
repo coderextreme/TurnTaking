@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "turnprog"
+version = "1.0.0"
+description = "Player progression library for multi-client multi-server games based on John Carlson (1986)"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "TurnProg Contributors" }
+]
+keywords = ["turn-taking", "player-progression", "multiplayer", "distributed-systems", "game-engine", "game-master"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Games/Entertainment",
+    "Topic :: System :: Distributed Computing",
+    "Programming Language :: Python :: 3",
+]
